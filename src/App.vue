@@ -32,19 +32,22 @@
     <h4 class="text-center text-emerald-400 font-bold text-4xl font-sans tagline mb-12">Conhecimentos</h4>
     <article class="container mx-auto flex justify-center flex-wrap">
       <figure class="tecnologies-tools grid grid-cols-4 justify-items-center gap-8">
-        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/HTML5.png" alt="HTML5">
-        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/CSS3.png" alt="CSS3">
-        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/JavaScript.png" alt="JavaScript">
-        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/TypeScript.png" alt="TypeScript">
-        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/Angular.png" alt="Angular">
-        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/Vue.png" alt="Vue">
-        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/Bootstrap.png" alt="Bootstrap">
-        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/Tailwind.png" alt="Tailwind">
-        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/Sass.png" alt="Sass">
-        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/Gulp.png" alt="Gulp">
-        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/JQuery.png" alt="JQuery">
+        <img class="p-3 bg-white w-full h-28 object-contain tagline"  src="../src/assets/imgs/HTML5.png" alt="HTML5" id="HTML5">
+        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/CSS3.png" alt="CSS3" id="CSS3">
+        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/JavaScript.png" alt="JavaScript" id="JavaScript">
+        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/TypeScript.png" alt="TypeScript" id="TypeScript">
+        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/Angular.png" alt="Angular" id="Angular">
+        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/Vue.png" alt="Vue" id="Vue">
+        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/Bootstrap.png" alt="Bootstrap" id="Bootstrap">
+        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/Tailwind.png" alt="Tailwind CSS" id="TailwindCSS">
+        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/Sass.png" alt="SASS" id="SASS">
+        <img class="p-3 bg-white w-full h-28 object-contain headline" src="../src/assets/imgs/Gulp.png" alt="Gulp" id="Gulp">
+        <img class="p-3 bg-white w-full h-28 object-contain tagline" src="../src/assets/imgs/JQuery.png" alt="jQuery" id="jQuery">
       </figure>
     </article>
+  </section>
+  <section class="bg-violet-800 p-5" id="projects">
+    <h4 class="text-center text-emerald-400 font-bold text-4xl font-sans tagline mb-12">Projetos</h4>
   </section>
   <Footer></Footer>
 </template>

@@ -6,8 +6,8 @@
         <ul class="menu flex items-center gap-8">
           <a href="#about-me"><li class="text-white font-medium font-sans text-lg">Sobre Mim</li></a>
           <a href="#knowledges"><li class="text-white font-medium font-sans text-lg">Conhecimentos</li></a>
-          <a href=""><li class="text-white font-medium font-sans text-lg">Projetos</li></a>
-          <a href=""><li class="text-white py-2 px-5 bg-emerald-500 rounded-full font-medium font-sans text-lg">Contato</li></a>
+          <a href="#projects"><li class="text-white font-medium font-sans text-lg">Projetos</li></a>
+          <a href="#contact"><li class="text-white py-2 px-5 bg-emerald-500 rounded-full font-medium font-sans text-lg">Contato</li></a>
         </ul>
       </nav>
     </div>
