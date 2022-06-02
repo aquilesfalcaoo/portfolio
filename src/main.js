@@ -51,3 +51,16 @@ tippy("#Gulp", {
 tippy("#jQuery", {
   content: "jQuery",
 });
+tippy("#Github", {
+  content: "Github",
+});
+tippy("#Linkedin", {
+  content: "Linkedin",
+});
+tippy("#Email", {
+  content: "Email",
+});
+
+tippy("#Telefone", {
+  content: "Telefone",
+});

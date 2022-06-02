@@ -7,6 +7,7 @@
             src=".././assets/imgs/logo.png"
             alt="Nome Portfólio"
             draggable="false"
+            loading="lazy"
         /></a>
         <ul class="menu flex items-center gap-8">
           <a href="#about-me"

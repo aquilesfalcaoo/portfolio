@@ -45,6 +45,7 @@
           src="../src/assets/imgs/undraw_programming.png"
           draggable="false"
           alt="representação de um programador no computador"
+          loading="lazy"
         />
       </figure>
     </article>
@@ -69,6 +70,7 @@
           src="../src/assets/imgs/undraw_feeling_proud.png"
           alt="representação de um programador sentado a mesa"
           draggable="false"
+          loading="lazy"
         />
       </figure>
       <div class="about-me-text my-5 w-2/5 flex flex-col self-center tagline">
@@ -105,71 +107,82 @@
           src="../src/assets/imgs/HTML5.png"
           alt="HTML5"
           id="HTML5"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain headline"
           src="../src/assets/imgs/CSS3.png"
           alt="CSS3"
           id="CSS3"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain tagline"
           src="../src/assets/imgs/JavaScript.png"
           alt="JavaScript"
           id="JavaScript"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain headline"
           src="../src/assets/imgs/TypeScript.png"
           alt="TypeScript"
           id="TypeScript"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain tagline"
           src="../src/assets/imgs/Angular.png"
           alt="Angular"
           id="Angular"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain headline"
           src="../src/assets/imgs/Vue.png"
           alt="Vue"
           id="Vue"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain tagline"
           src="../src/assets/imgs/Bootstrap.png"
           alt="Bootstrap"
           id="Bootstrap"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain headline"
           src="../src/assets/imgs/Tailwind.png"
           alt="Tailwind CSS"
           id="TailwindCSS"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain tagline"
           src="../src/assets/imgs/Sass.png"
           alt="SASS"
           id="SASS"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain headline"
           src="../src/assets/imgs/Gulp.png"
           alt="Gulp"
           id="Gulp"
+          loading="lazy"
         />
         <img
           class="p-3 bg-white w-full h-28 object-contain tagline"
           src="../src/assets/imgs/JQuery.png"
           alt="jQuery"
           id="jQuery"
+          loading="lazy"
         />
       </figure>
     </article>
   </section>
-  <section class="bg-violet-800 p-5 mb-12" id="projects">
+  <section class="bg-violet-800 p-5" id="projects">
     <h4
       class="
         text-center text-emerald-400
@@ -184,14 +197,23 @@
     </h4>
     <article class="container mx-auto flex justify-center flex-wrap">
       <div class="grid grid-cols-3 justify-items-center">
-        <figure class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg">
+        <figure
+          class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
+          id="Github"
+        >
           <a
             href="https://github.com/aquilesfalcaoo/animals-feed"
             rel="noopener"
             target="_blank"
           >
             <div class="bg-violet-800 flex justify-center py-10">
-              <img class="w-20" src="./assets/imgs/Github.png" alt="Github" />
+              <img
+                class="w-20"
+                src="./assets/imgs/Github.png"
+                draggable="false"
+                alt="Github"
+                loading="lazy"
+              />
             </div>
             <h6
               class="
@@ -210,14 +232,23 @@
             </figcaption>
           </a>
         </figure>
-        <figure class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg">
+        <figure
+          class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
+          id="Github"
+        >
           <a
             href="https://github.com/aquilesfalcaoo/unity-bank"
             rel="noopener"
             target="_blank"
           >
             <div class="bg-violet-800 flex justify-center py-10">
-              <img class="w-20" src="./assets/imgs/Github.png" alt="Github" />
+              <img
+                class="w-20"
+                src="./assets/imgs/Github.png"
+                draggable="false"
+                alt="Github"
+                loading="lazy"
+              />
             </div>
             <h6
               class="
@@ -236,14 +267,23 @@
             </figcaption>
           </a>
         </figure>
-        <figure class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg">
+        <figure
+          class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
+          id="Github"
+        >
           <a
             href="https://github.com/aquilesfalcaoo/station-games"
             rel="noopener"
             target="_blank"
           >
             <div class="bg-violet-800 flex justify-center py-10">
-              <img class="w-20" src="./assets/imgs/Github.png" alt="Github" />
+              <img
+                class="w-20"
+                src="./assets/imgs/Github.png"
+                draggable="false"
+                alt="Github"
+                loading="lazy"
+              />
             </div>
             <h6
               class="
@@ -262,6 +302,66 @@
             </figcaption>
           </a>
         </figure>
+      </div>
+    </article>
+  </section>
+  <section class="bg-violet-800 p-5" id="contact">
+    <h4
+      class="
+        text-center text-emerald-400
+        font-bold
+        text-4xl
+        font-sans
+        tagline
+        mt-12
+      "
+    >
+      Contato
+    </h4>
+    <article class="container mx-auto flex justify-center mb-12">
+      <div class="grid grid-cols-2 gap-12 justify-items-center">
+        <div class="mt-12 flex self-center">
+          <p class="text-white font-medium text-lg font-sans tagline">
+            Entre em contato comigo por telefone, email ou me adicione no
+            Linkedin.
+          </p>
+        </div>
+        <div class="mt-12 flex items-center gap-10">
+          <a
+            href="https://www.linkedin.com/in/aquilesfalcaoo/"
+            rel="noopener"
+            target="_blank"
+            id="Linkedin"
+          >
+            <img
+              class="w-12 object-contain tagline"
+              src="./assets/imgs/Linkedin.png"
+              alt="Linkedin"
+              loading="lazy"
+            />
+          </a>
+          <a
+            href="mailto:aquilesfalcaoo@gmail.com"
+            rel="noopener"
+            target="_blank"
+            id="Email"
+          >
+            <img
+              class="w-12 object-contain tagline"
+              src="./assets/imgs/Email.png"
+              alt="E-mail"
+              loading="lazy"
+            />
+          </a>
+          <a href="+5581997452190" rel="noopener" target="_blank" id="Telefone">
+            <img
+              class="w-12 object-contain tagline"
+              src="./assets/imgs/Telefone.png"
+              alt="Telefone"
+              loading="lazy"
+            />
+          </a>
+        </div>
       </div>
     </article>
   </section>
