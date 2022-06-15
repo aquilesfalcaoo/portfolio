@@ -1,8 +1,12 @@
 <template>
   <Header></Header>
   <main class="bg-violet-800 p-5">
-    <article class="container mx-auto flex justify-center flex-wrap">
-      <div class="flex flex-col self-center w-2/5 tagline">
+    <article
+      class="container mx-auto flex justify-center flex-wrap md:flex-nowrap"
+    >
+      <div
+        class="flex flex-col self-center xl:w-2/5 lg:w-2/5 md:w-full tagline"
+      >
         <div class="content-title mb-6">
           <h4
             class="
@@ -34,6 +38,7 @@
             w-32
             font-medium font-sans
           "
+          id="Curriculo"
           href="../CV_Aquiles_Falcão.pdf"
           download
           >Currículo<i class="fa-solid fa-download ml-1.5"></i
@@ -63,17 +68,30 @@
     >
       Sobre Mim
     </h4>
-    <article class="container mx-auto flex justify-center flex-wrap">
+    <article
+      class="container mx-auto flex justify-center flex-wrap lg:flex-nowrap"
+    >
       <figure class="about-me-img headline">
         <img
-          class="w-4/5"
+          class="xl:w-4/5 lg:w-4/5"
           src="../src/assets/imgs/undraw_feeling_proud.png"
           alt="representação de um programador sentado a mesa"
           draggable="false"
           loading="lazy"
         />
       </figure>
-      <div class="about-me-text my-5 w-2/5 flex flex-col self-center tagline">
+      <div
+        class="
+          about-me-text
+          my-5
+          xl:w-2/5
+          lg:w-2/5
+          md:w-full
+          flex flex-col
+          self-center
+          tagline
+        "
+      >
         <p class="text-white font-medium text-lg font-sans leading-6">
           Olá! Meu nome é Aquiles Falcão, sou formado em Design Gráfico e no
           momento estou graduando em Sistemas de Informação, estou estagiando na
@@ -100,7 +118,14 @@
     </h4>
     <article class="container mx-auto flex justify-center mb-12">
       <figure
-        class="tecnologies-tools grid grid-cols-4 justify-items-center gap-8"
+        class="
+          tecnologies-tools
+          grid
+          md:grid-cols-4
+          grid-cols-2
+          justify-items-center
+          gap-8
+        "
       >
         <img
           class="p-3 bg-white w-full h-28 object-contain tagline"
@@ -196,7 +221,7 @@
       Projetos
     </h4>
     <article class="container mx-auto flex justify-center flex-wrap">
-      <div class="grid grid-cols-3 justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center">
         <figure
           class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
           id="Github"
@@ -319,7 +344,7 @@
       Contato
     </h4>
     <article class="container mx-auto flex justify-center mb-12">
-      <div class="grid grid-cols-2 gap-12 justify-items-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
         <div class="mt-12 flex self-center">
           <p class="text-white font-medium text-lg font-sans tagline">
             Entre em contato comigo por telefone, email ou me adicione no
@@ -356,8 +381,8 @@
           <a href="+5581997452190" rel="noopener" target="_blank" id="Telefone">
             <img
               class="w-12 object-contain tagline"
-              src="./assets/imgs/Telefone.png"
-              alt="Telefone"
+              src="./assets/imgs/WhatsApp.png"
+              alt="WhatsApp"
               loading="lazy"
             />
           </a>

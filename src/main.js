@@ -18,6 +18,9 @@ ScrollReveal().reveal(".headline", {
   easing: "ease-out",
 });
 
+tippy("#Curriculo", {
+  content: "Download Currículo",
+});
 tippy("#HTML5", {
   content: "HTML5",
 });
@@ -52,7 +55,7 @@ tippy("#jQuery", {
   content: "jQuery",
 });
 tippy("#Github", {
-  content: "Github",
+  content: "Repositório no Github",
 });
 tippy("#Linkedin", {
   content: "Linkedin",
@@ -60,7 +63,6 @@ tippy("#Linkedin", {
 tippy("#Email", {
   content: "Email",
 });
-
 tippy("#Telefone", {
-  content: "Telefone",
+  content: "WhatsApp",
 });
