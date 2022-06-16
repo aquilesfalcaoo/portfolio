@@ -221,9 +221,9 @@
       Projetos
     </h4>
     <article class="container mx-auto flex justify-center flex-wrap">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-28 justify-items-center">
         <figure
-          class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
+          class="bg-neutral-800 rounded w-full mx-auto p-5 shadow-lg headline"
           id="Github"
         >
           <a
@@ -258,7 +258,7 @@
           </a>
         </figure>
         <figure
-          class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
+          class="bg-neutral-800 rounded w-full mx-auto p-5 shadow-lg headline"
           id="Github"
         >
           <a
@@ -293,7 +293,7 @@
           </a>
         </figure>
         <figure
-          class="bg-neutral-800 rounded w-9/12 mx-auto p-5 shadow-lg headline"
+          class="bg-neutral-800 rounded w-full mx-auto p-5 shadow-lg headline"
           id="Github"
         >
           <a
