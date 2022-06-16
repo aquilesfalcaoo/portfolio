@@ -1,6 +1,6 @@
 <template>
   <Header></Header>
-  <main class="bg-violet-800 p-5">
+  <main class="bg-violet-800 p-5 pt-40">
     <article
       class="container mx-auto flex justify-center flex-wrap md:flex-nowrap"
     >

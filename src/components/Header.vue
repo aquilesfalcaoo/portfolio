@@ -1,5 +1,7 @@
 <template>
-  <header class="py-5 px-8 bg-violet-800 border-violet-900 border-b-2">
+  <header
+    class="py-5 px-8 bg-violet-800 border-violet-900 border-b-2 fixed w-full"
+  >
     <div class="container mx-auto">
       <nav class="menu-content flex flex-wrap justify-between items-center">
         <a href="#"
@@ -72,5 +74,3 @@
     </div>
   </header>
 </template>
-<script>
-</script>
