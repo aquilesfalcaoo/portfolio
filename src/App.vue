@@ -378,7 +378,12 @@
               loading="lazy"
             />
           </a>
-          <a href="+5581997452190" rel="noopener" target="_blank" id="Telefone">
+          <a
+            href="tel:+5581997452190"
+            rel="noopener"
+            target="_blank"
+            id="Telefone"
+          >
             <img
               class="w-12 object-contain tagline"
               src="./assets/imgs/WhatsApp.png"
