@@ -39,7 +39,7 @@
             font-medium font-sans
           "
           id="Curriculo"
-          href="../src/assets/CV_Aquiles_Falcão.pdf"
+          href="../public/files/CV_Aquiles_Falcão.pdf"
           download
           >Currículo<i class="fa-solid fa-download ml-1.5"></i
         ></a>
