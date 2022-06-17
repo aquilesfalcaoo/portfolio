@@ -30,7 +30,7 @@
         </p>
         <a
           class="
-            bg-emerald-500
+            bg-emerald-600
             text-white
             rounded-full
             py-2
