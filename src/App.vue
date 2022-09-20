@@ -297,7 +297,7 @@
           id="Github"
         >
           <a
-            href="https://github.com/aquilesfalcaoo/station-games"
+            href="https://github.com/Rennan-sbarros/StationGames"
             rel="noopener"
             target="_blank"
           >
